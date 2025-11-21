@@ -114,13 +114,13 @@
         "foreground": "#e9b684"
       }
     },
-    {
-      "name": "Number",
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "#58b4ff"
-      }
-    },
+    // {
+    //   "name": "Number",
+    //   "scope": "constant.numeric",
+    //   "settings": {
+    //     "foreground": "#58b4ff"
+    //   }
+    // },
     {
       "name": "Built-in constant",
       "scope": "constant.language",
@@ -135,41 +135,26 @@
         "foreground": "#AC58FF"
       }
     },
-    {
-      "name": "Variable",
-      "scope": "variable",
-      "settings": {
-        "foreground": "#56B6C2"
-      }
-    },
-    {
-      "name": "Keyword",
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#E95293",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Storage",
-      "scope": "storage",
-      "settings": {
-        "foreground": "#FF5BA2"
-      }
-    },
+    // {
+    //   "name": "Variable",
+    //   "scope": "variable",
+    //   "settings": {
+    //     "foreground": "#56B6C2"
+    //   }
+    // },
+    // {
+    //   "name": "Storage",
+    //   "scope": "storage",
+    //   "settings": {
+    //     "foreground": "#FF5BA2"
+    //   }
+    // },
     {
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
         "foreground": "#D59DF6",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Class name",
-      "scope": "entity.name.class, entity.name.type.class, support.class",
-      "settings": {
-        "foreground": "#FF7F50"
       }
     },
     {
@@ -377,13 +362,6 @@
       }
     },
     {
-      "name": "Library class/type",
-      "scope": "support.type, support.class",
-      "settings": {
-        "foreground": "#4DB1D8"
-      }
-    },
-    {
       "name": "Punctuation",
       "scope": "punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array",
       "settings": {
@@ -408,14 +386,19 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#D59DF6"
+        // #E95293
+        // #D59DF6
+        "foreground": "#D59DF6",
+        "fontStyle": "italic"
       }
     },
     {
       "name": "Variables",
       "scope": "variable, meta.selector.css",
       "settings": {
-        "foreground": "#89b080"
+        // #89b080
+        // 
+        "foreground": "#98bb90"
       }
     },
     {
@@ -427,7 +410,7 @@
     },
     {
       "name": "Classes",
-      "scope": "support.class, entity.name.class, entity.name.type.class",
+      "scope": "support.type, support.class, entity.name.class, entity.name.type.class",
       "settings": {
         "foreground": "#FF7F50"
       }
